@@ -1,0 +1,10 @@
+[project]
+name = 'trajectory_test_task'
+
+[tool.mypy]
+disallow_any_generics = false
+check_untyped_defs = true
+warn_return_any = false
+ignore_missing_imports = false
+warn_redundant_casts = true
+warn_unused_ignores = true

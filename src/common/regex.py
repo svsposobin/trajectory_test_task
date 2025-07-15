@@ -1,0 +1,2 @@
+VALIDATE_ACTION_PATTERN: str = r"^[1-5]$"
+VALIDATE_TIMESLOTS_DURATION_PATTERN: str = r"^(?!0\d)([1-9]\d{0,2}|1[0-3]\d{2}|1440)$"
